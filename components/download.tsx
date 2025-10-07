@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Apple, Smartphone, Flame } from "lucide-react"
+import { Apple, Smartphone, Flame, DownloadIcon } from "lucide-react"
 import { useEffect, useState } from "react"
 
 export function Download() {
@@ -43,10 +43,10 @@ export function Download() {
               Oferta Especial
             </div>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-balance">
-              Baixe agora e ganhe <span className="underline decoration-wavy">2.000 Kz OFF</span>
+              Baixe agora
             </h2>
             <p className="text-xl md:text-2xl text-white/95 max-w-2xl mx-auto text-pretty">
-              No seu primeiro pedido. Disponível para iOS e Android.
+              Disponível para Android.
             </p>
           </div>
 
@@ -56,8 +56,8 @@ export function Download() {
               variant="secondary"
               className="text-lg h-16 px-10 gap-3 min-w-[220px] hover-glow font-semibold"
             >
-              <Apple className="w-7 h-7" />
-              App Store
+              <DownloadIcon className="w-7 h-7" />
+              Baixar Gratis
             </Button>
             <Button
               size="lg"

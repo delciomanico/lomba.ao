@@ -70,6 +70,7 @@ export function Hero() {
                 Baixar Agora
               </Button>
               <Button
+                onClick={()=> location.href= "#how-do-work"}
                 size="lg"
                 variant="outline"
                 className="text-lg h-14 px-8 bg-background/50 backdrop-blur hover-lift"

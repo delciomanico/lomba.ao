@@ -38,7 +38,7 @@ export default function SobrePage() {
               Sobre o <span className="text-primary">Lomba</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed text-pretty">
-              Revolucionando a forma como você recebe gás em casa desde 2020
+              Revolucionando a forma como você recebe gás em casa desde 2024
             </p>
           </div>
         </section>
@@ -51,7 +51,7 @@ export default function SobrePage() {
                 <h2 className="text-4xl md:text-5xl font-bold">Nossa História</h2>
                 <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                   <p>
-                    O Lomba nasceu da necessidade de tornar a entrega de gás mais rápida, segura e conveniente. Em 2020,
+                    O Lomba nasceu da necessidade de tornar a entrega de gás mais rápida, segura e conveniente. Em 2024,
                     percebemos que as pessoas precisavam de uma solução moderna para um problema antigo.
                   </p>
                   <p>
@@ -114,7 +114,7 @@ export default function SobrePage() {
                 <div className="text-muted-foreground">Entregas Realizadas</div>
               </div>
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-primary mb-2">15</div>
+                <div className="text-5xl md:text-6xl font-bold text-primary mb-2">5</div>
                 <div className="text-muted-foreground">Cidades Atendidas</div>
               </div>
               <div className="text-center">

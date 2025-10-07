@@ -39,7 +39,7 @@ export default function ServicosPage() {
     {
       icon: CreditCard,
       title: "Pagamento Flexível",
-      description: "Pague como preferir: cartão, PIX, dinheiro ou vale-gás.",
+      description: "Pague como preferir: cartão, dinheiro ou vale-gás.",
       features: ["Múltiplas opções", "Pagamento seguro", "Parcelamento disponível"],
     },
   ]
@@ -92,7 +92,7 @@ export default function ServicosPage() {
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold text-white text-balance">Pronto para experimentar?</h2>
             <p className="text-xl text-white/90 text-pretty">
-              Baixe o app agora e receba 2.000 Kz OFF no seu primeiro pedido
+              Baixe o app agora
             </p>
             <Button size="lg" variant="secondary" className="text-lg h-16 px-10 hover-glow font-semibold">
               Baixar App Grátis

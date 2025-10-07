@@ -52,7 +52,7 @@ export function HowItWorks() {
   ]
 
   return (
-    <section ref={sectionRef} className="py-24 px-4 bg-muted/30 relative overflow-hidden">
+    <section ref={sectionRef} id="how-do-work" className="py-24 px-4 bg-muted/30 relative overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-1/2 left-0 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
         <div className="absolute top-1/2 right-0 w-72 h-72 bg-accent/10 rounded-full blur-3xl" />
@@ -77,9 +77,9 @@ export function HowItWorks() {
                 <div className="hidden lg:block absolute top-20 left-[60%] w-full h-1 bg-gradient-to-r from-primary to-accent -z-10 opacity-30" />
               )}
 
-              <div className="text-center space-y-4 hover-lift">
+              <div className="text-center space-y-4 hover-lift ">
                 <div className="relative inline-flex">
-                  <div className="w-28 h-28 bg-gradient-to-br from-primary to-accent rounded-3xl flex items-center justify-center shadow-xl group-hover:shadow-2xl transition-all duration-300">
+                  <div className="w-28 h-28 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center shadow-xl  transition-all duration-300">
                     <step.icon className="w-12 h-12 text-primary-foreground" />
                   </div>
                   <div className="absolute -top-3 -right-3 w-12 h-12 bg-foreground text-background rounded-full flex items-center justify-center font-bold text-lg shadow-lg">
