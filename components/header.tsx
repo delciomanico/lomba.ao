@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Flame } from "lucide-react"
+import { handleDownload } from "@/lib/utils"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -57,7 +58,7 @@ export function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
-            <Button className="hover-glow">Baixar App</Button>
+            <Button onClick={handleDownload} className="hover-glow">Baixar App</Button>
           </div>
 
           {/* Mobile Menu Button */}

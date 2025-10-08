@@ -1,6 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
+import { handleDownload } from "@/lib/utils"
 import { Apple, Smartphone, Flame, DownloadIcon } from "lucide-react"
 import { useEffect, useState } from "react"
 
@@ -52,6 +53,7 @@ export function Download() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center relative z-10">
             <Button
+            onClick={handleDownload} 
               size="lg"
               variant="secondary"
               className="text-lg h-16 px-10 gap-3 min-w-[220px] hover-glow font-semibold"

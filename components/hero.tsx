@@ -1,6 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
+import { handleDownload } from "@/lib/utils"
 import { Flame, Zap, MapPin, Clock } from "lucide-react"
 import { useEffect, useState } from "react"
 
@@ -65,7 +66,7 @@ export function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="text-lg h-14 px-8 gap-2 group hover-glow shadow-lg">
+              <Button onClick={handleDownload}  size="lg" className="text-lg h-14 px-8 gap-2 group hover-glow shadow-lg">
                 <Flame className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 Baixar Agora
               </Button>

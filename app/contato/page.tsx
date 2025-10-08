@@ -11,20 +11,20 @@ export default function ContatoPage() {
     {
       icon: Phone,
       title: "Telefone",
-      info: "0800 123 4567",
+      info: "+244 941 564 468",
       description: "Seg a Sex, 8h às 20h",
     },
     {
       icon: Mail,
       title: "Email",
-      info: "contato@lomba.com",
+      info: "Lombaappstartup@gmail.com",
       description: "Respondemos em até 24h",
     },
     {
       icon: MapPin,
       title: "Endereço",
-      info: "Av. Principal, 1000",
-      description: "São Paulo - SP",
+      info: "Provincia - Cubango, Municipio -Menongue, bairro casa da Juventude",
+      description: "",
     },
     {
       icon: Clock,
